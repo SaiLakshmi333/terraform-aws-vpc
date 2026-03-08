@@ -13,4 +13,5 @@ variable "environment"{
 
 variable "vpc_tags"{
     type = map
+    default={}
 }
