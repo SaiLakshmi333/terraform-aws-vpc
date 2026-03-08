@@ -1,6 +1,7 @@
-resource "aws-vpc" "main"{
+resource "aws_vpc" "main"{
     cidr_block=var.vpc_cidr
     instance_tenancy="default"
     tags=local.vpc_final_tags
+    enable_dns_hostnames = true
 }
 
