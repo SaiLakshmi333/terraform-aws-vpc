@@ -1,4 +1,4 @@
-data "availability_zone" "available"{
+data "availability_zones" "available"{
     state= "available"
 }
 
